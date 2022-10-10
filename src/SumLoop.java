@@ -6,7 +6,7 @@ public class SumLoop {
 		// TODO Auto-generated method stub
 
 		Scanner myInput = new Scanner(System.in);
-		System.out.println("entrer the number :");
+		System.out.println("entrez un numéro  :");
 		int n = myInput.nextInt();
 		
 		int oldSum =0;

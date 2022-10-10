@@ -6,7 +6,7 @@ public class Loop1 {
 		// TODO Auto-generated method stub
 
 		Scanner myInput = new Scanner(System.in);
-		System.out.println("enter the number : ");
+		System.out.println("Enter size of traigngle : ");
 	   	int n = myInput.nextInt();
 		
 		
