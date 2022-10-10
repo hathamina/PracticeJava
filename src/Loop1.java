@@ -10,17 +10,30 @@ public class Loop1 {
 	   	int n = myInput.nextInt();
 		
 		
-		
-		for( int i = 1; i<=n; i++) {
-			
-			if(i< n) {
-				System.out.print(i + ",");
-			}else {
-			
-			System.out.print(i);}
-			
-			
+//		
+//		for( int i = 1; i<=n; i++) {
+//			
+//			if(i< n) {
+//				System.out.print(i + ",");
+//			}else {
+//			
+//			System.out.print(i);}
+//			
+//		}
+	   	
+	   	int i = 1;
+	   	while (i <= n) {
+	   		
+	   		if(i<n){
+	   		System.out.print(i + ", ");
+	   			}else {
+	   				System.out.print(i);
+	   		}
+	   		i++;
 		}
+	   	
+	   			
 	}
 
 }
+
