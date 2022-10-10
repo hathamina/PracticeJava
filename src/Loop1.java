@@ -21,16 +21,32 @@ public class Loop1 {
 //			
 //		}
 	   	
-	   	int i = 1;
-	   	while (i <= n) {
+	   //////////////////////////and/////////////////////////////////////////
+	   	
+//	   	int i = 1;
+//	   	while (i <= n) {
+//	   		
+//	   		if(i<n){
+//	   		System.out.print(i + ", ");
+//	   			}else {
+//	   				System.out.print(i);
+//	   		}
+//	   		i++;
+//		}
+	   	
+	    //////////////////////////and/////////////////////////////////////////
+	   	
+	   	int i =1;
+	   	do {
 	   		
-	   		if(i<n){
+	   		if(i<n) {
 	   		System.out.print(i + ", ");
 	   			}else {
 	   				System.out.print(i);
-	   		}
-	   		i++;
-		}
+	   				}
+	   	i++;
+	   	
+	   	}while(i<=n);
 	   	
 	   			
 	}
